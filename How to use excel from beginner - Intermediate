@@ -1,0 +1,30 @@
+Four main areas: 
+
+Ribbon - All important functions
+Formular Bar - Formular input
+Spreadsheet grid - A - z Rows and columns
+Status Bar - Status is shown, zoom, etc
+
+Tabular data : Columns + Rows
+Table design ribbon - Adds some nice formatting eg colour to the table
+
+If you identify the data in table (using ctrl + t) there are drop down options in header of table - 
+
+To save file;
+Ctrl + s - Save
+Ctrl + z - Undo
+Ctrl + t - Selecting table + Table formular (Helpful in keeping track of data
+
+
+
+
+*** Drop-down menus (on top of table-header) :These are filters, e.g if you want to know how many people paid by cash, choose the drop-down menu in payment-mode column
+then only select - Cash.
+*** To sort - Use drop-down menu : Choose whether to start from low to high or vice-versa.
+-- If you copy and paste data, sorting might not work, use =CLEAN(A1)*1 to the cells to remove
+non-printable charaters.
+-- After adding new values, you need to re-do the sorting otherwise its not considered.
+
+*** To add more info/data to already existing data, go to the bottom and add text in first row, then
+press "TAB" to move cell to right instead of down-wards
+
