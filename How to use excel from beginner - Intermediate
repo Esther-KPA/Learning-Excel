@@ -14,9 +14,7 @@ To save file;
 Ctrl + s - Save
 Ctrl + z - Undo
 Ctrl + t - Selecting table + Table formular (Helpful in keeping track of data
-
-
-
+Ctrl + 1 - Opens formatting options for any column/row selected
 
 *** Drop-down menus (on top of table-header) :These are filters, e.g if you want to know how many people paid by cash, choose the drop-down menu in payment-mode column
 then only select - Cash.
@@ -27,4 +25,45 @@ non-printable charaters.
 
 *** To add more info/data to already existing data, go to the bottom and add text in first row, then
 press "TAB" to move cell to right instead of down-wards
+
+*** To add total from one sheet to another;
+=sum("name of table with values you want to add"["name of column"]) then press "TAB"
+
+*** To clear everything in cells including formulars;
+Got to cells, editting > then choose "Clear All"
+
+*** Average calculations in different tables
+=average("name of table with values you want to add"["name of column"]) then press "TAB"
+
+*** To apply the same formating of one column to another
+Select column of formatting desired > Go to ribbon > Click on format painter > then click on cell
+where you want the formating copied. (Esp with having the same currency)
+
+*** Max & Min
+=MAX / MIN("name of table with values you want to add"["name of column"]) then press "TAB"
+
+*** Count
+=COUNT("name of table with values you want to add"["name of column"]) then press "TAB"
+
+*** Small & Large
+=SMALL(Sales[Boxes Sold Amount],1) 
+-- Sales = Name of sheet table
+-- Boxes sold amount = The column
+-- 1 = First runner up ( of number of boxes that is small / large)
+
+*** To add names on chart
+Select right column > Choose select data > Go to horizontal labels > then select column with
+data you want to show on charts
+
+*** To filter out amounts less than 500
+-- Select column > Go to ribbon and look for "conditional formatting" then select as required.
+
+
+
+
+
+
+
+
+
 
