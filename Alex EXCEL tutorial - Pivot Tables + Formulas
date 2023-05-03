@@ -1,0 +1,67 @@
+*** To Find pivot tables
+
+> Select a cell > Go to insert > the choose pivot table, make one from scratch / use recommended one
+
+*** To add columns, rows, values, etc
+
+> Drag and drop to respective fields below list : Adds text/words > Rows, Numbers/figures > Values
+
+*** To test if the calculations are alligning
+
+>Go to ribbon bar menu > Choose pivot table analyse > Fields items & sets > calculated field 
+
+*** To check data based on a filter
+> Drag an option to filter by from list to the table below in filters section
+
+### FORMULAS ###
+
+*** IF / IFS ***
+
+IF = If this is that, then bring this
+IFS = Has multiple conditions : Instead of true/false it has multiple conditions
+
+IF example formula
+
+=IF(D2:D10 > 30, "Old" , "Young")
+>> Meaning if age is greater than 30 then = old and if false = young
+
+IFS example formula
+
+==IFS(F2:F10 = "Salesman","Sales", F2:F10 = "Receptionist","Hardworker",F2:F10 = "HR","Ask to improve")
+>> Meaning if from cell F2 TO cell F10 there is sales add text of "sales", the condition repeats for the same cell with different job titles
+
+*** LEN (length of number/ text)
+
+=LEN(C2:C10)
+>> meaning length of each text from cell C2 to C10
+
+*** LEFT & RIGHT :For date cell, it has to be changed from date to text
+=LEFT(G2:G10,2)
+>>Meaning starting from extreme left, in cell G2 to G10 extract 2 characters/ letters/ numbers
+
+*** DATE TO TEXT
+=TEXT(H2:H10,"dd/mm/yyyy")
+>> Meaning text starting from cell H2 to H10 in the format "dd/mm/yyyy"
+
+*** CONCATENATE - Used to join together two cells
+=CONCATENATE(B2," ",C2)
+
+To add emails
+=CONCATENATE(B2," ",C2,"@gmail.com")
+
+*** SUBSTITUTE
+
+With no instance - =SUBSTITUTE(H2:H10,"/","-") > If you dont choose an instance, it chooses all of them
+With 1 instance - =SUBSTITUTE(H2:H10,"/","-",1) >It changes only the first / to -
+With 2 instances - =SUBSTITUTE(H2:H10,"/","-",2) > It changes both first and second / to -
+
+*** SUMIF / SUMIFS
+
+SUMIFS - =SUMIFS(G2:G10,E2:E10,"Female",D2:D10,">30") > Sum of Salary, female(In gender cell) greater than 30 (age cell d2:d10)
+SUMIF -  =SUMIF(G2:G10,">50000") >Sum of salary greater than 50,000
+
+*** DAYS / NETWORKSDAYS
+
+DAYS - =DAYS(I2,H2) > Total number of calendar days worked.
+NETWORKDAYS - =NETWORKDAYS(H2,I2) > Net number of days worked without weekends and special public holidays (generic like christmas) you can add number of special 
+holidays per country or number of holidays took.
