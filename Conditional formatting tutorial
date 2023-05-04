@@ -1,1 +1,20 @@
+*** Conditional formatting >> Instead of filtering large data sets too see patterns already on a general scale
+>> Easily spotting trends and patterns in your data using bars, colors and icons to visually highlight important values 
+
+To find patterns:
+>> Choose whole column of values you want to find pattern >> go to conditional formatting >> choose any of the visualization icons, graphs, etc
+
+To find duplicates:
+>> Choose who column / columns >> Go to conditional formatting >> Choose highlight cell rules >> Find duplicates option >> then choose colou preferred
+
+To sort duplicates so that they are easily seen:
+>> select whole horizontal row, area starting with 1. >> Go to data at the ribbon bar section >> Select filter >> Come back to the columns and 
+click on drop down arrow >> Choose to sort based on colour
+
+To Find words/signs,tel numbers, etc that contain something in particular you are loooking for:
+>> Follow instructions like duplicates >> instead of duplicates choose "text that contains" and the sort  according i.e bringing them up for easy 
+noticing.
+
+To also add a formatted rule using formulas
+>> Follow instructions above (duplicates) then choose new rule >> Add formula starting with "=" then remove the dollar signs
 
