@@ -1,0 +1,63 @@
+*** XLOOKUP
+Essentially finds a value and returns it
+
+=XLOOKUP(A3,H2:H10,P2:P10)
+>> Formula, then from cell A3, look for matching name/digit in cell H2 TO H10 and return matching value/rmail/phonenumber/ date/ etc from cell P2 to P10
+
+***   XLOOKUP MULTIPLE ROWS
+Can add info in two separate rows/columns or more
+
+=XLOOKUP(A3,I2:I10,O2:P10) 
+>> The difference here is starting from O2 to P10
+
+*** XLOOPUP Exact match
+
+=XLOOKUP(A3,H2:H10,O2:O10,"Not found")
+>> Look up email or name and if its not found, add string "Not found"
+
+0 - Exact match - also default
+-1 - exact match or next smaller item
+1 - Exact match or next larger item
+2 - Wildcard character match
+
+=XLOOKUP("*"&A4,H2:H10,O2:O10,"Not found",2)
+>> "*" Meaning anything before
+    & + the character/value
+    2 the wildcart character match
+    
+=XLOOKUP(A5&"*",H2:H11,O2:O11,"Not found",2)
+>> Here it goes after the cell number
+
+*** XLOOKUP Search order
+=XLOOKUP(A3,N2:N10,I2:I10,,1)
+>> Look up date from cell A3 in column N2 to N10 and return value from cell 12 to I10, 1 > exact match or next larger item
+
+
+=XLOOKUP(A4,N3:N11,I3:I11,,,-1)
+>> Same concept as before but changes with showing either from first to last or last to first (-1 is from last to first, 1 > first to last)
+
+*** XLOOKUP Horizontal
+
+=XLOOKUP(I1,H1:S1,H2:S2)
+>> Look up I1 in the horizontal cell H1 to S1 and return matching value from horizontal cell H2 to S2
+
+*** XLOOKUP SUM
+
+=SUM(XLOOKUP(I1,H1:S1,H1:S2):XLOOKUP(J1,H1:S1,H2:S2))
+
+*** VLOOK 
+
+=VLOOKUP(A3,H2:P10,9,FALSE)
+>> Meaning value in cell A3 find it from table H2 to P10, and return the match in 9th column, false- Exact match and true would be almost similar match
+
+
+
+
+
+
+
+
+
+
+
+
