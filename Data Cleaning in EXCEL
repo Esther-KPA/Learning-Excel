@@ -1,0 +1,22 @@
+*** Caution on what to be aware of before cleaning the data
+
+> Words not matching the rest e.g words in all upper case yet others are in lower case, make sure the date format matches, remove currency sign if data will
+be used in SQL.
+
+*** Steps in Data cleaning;
+ 1. Look for duplicates
+ >> Highlight any cell > Go to data in the ribbon bar > Go to remove duplicates
+ 
+ 2. Work on Upper case and make them uniform or standard
+ >> =UPPER(C2)
+ :Upper - All Upper case
+ :Proper - Normal way first letter upper case and the rest lower
+ :Lower - All lower case even first letter
+ 
+ 3. Filter out some spelling mistakes, etc !! Have the original data saved on the side while working on the rest of the data
+ >> Select all sheet / area with data > Go to data > Choose filter >> Select texts that need to remove mistakes and do that.
+ 
+ 4. Remove any unwanted spaces, before or at the end of the text
+ >> Using " =TRIM(C2) "
+ 
+ 
