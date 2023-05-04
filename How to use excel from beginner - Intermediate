@@ -13,6 +13,7 @@ If you identify the data in table (using ctrl + t) there are drop down options i
 To save file;
 Ctrl + s - Save
 Ctrl + z - Undo
+Ctrl + y - Redo
 Ctrl + t - Selecting table + Table formular (Helpful in keeping track of data
 Ctrl + 1 - Opens formatting options for any column/row selected
 
