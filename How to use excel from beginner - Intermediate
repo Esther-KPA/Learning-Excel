@@ -16,6 +16,7 @@ Ctrl + z - Undo
 Ctrl + y - Redo
 Ctrl + t - Selecting table + Table formular (Helpful in keeping track of data
 Ctrl + 1 - Opens formatting options for any column/row selected
+Ctrl + h - Opens find and replace
 
 *** Drop-down menus (on top of table-header) :These are filters, e.g if you want to know how many people paid by cash, choose the drop-down menu in payment-mode column
 then only select - Cash.
