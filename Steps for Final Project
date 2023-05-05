@@ -1,0 +1,17 @@
+0. Save dataset in your own preffered name and save it on your computer first.
+1. Remove duplicates
+2. Show the meaning of Letter descriptions for Marital status and Gender as they have similar dscriptive letter (Find & Replace)
+3. Check currency values, remove decimals, for now first leave currency sign until you check if you need it or not when it comes to dashboarding
+4. Glance through other columns to see if there are spelling mistakes, duplicates, etc
+5. Age column is best in "visualization" to be in age range format, so create a new column to use for dashboard
+6. Pivot tables - How you help build dashboards or visualizations 
+   - Average income per gender and purchase habits (Income trigger purchase? or no)
+   - Does commuting ditance affect need to purchase or not?
+   - Age range of bike purchasers
+7. Create dashboard (Taking out charts created from pivot tables and pasting on sheet where the dashboard will be)
+   - Remove gridlines to have a cleansheet
+8. Include slicers to see each data based on marital status, any data that has filters like yes/no,gender,marital status, etc.
+   - We use Marital status
+   - Select chart > Go to ribbon bar and select insert slicers > And to apply to all charts > Double click on slicer
+   created > Go to ribbon bar and > Select slicer > Click report connection and select all pivot tables 
+9. Add some fun things to the dashboard to make it more intermediate (The dashboard is basic) but does the job.
