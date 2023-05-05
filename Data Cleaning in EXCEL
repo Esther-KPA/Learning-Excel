@@ -1,4 +1,6 @@
 *** Caution on what to be aware of before cleaning the data
+!! Know your use-case, is it for sql, python, etc take into account
+!! Know the use of the data set so that you can clean it accordingly
 
 > Words not matching the rest e.g words in all upper case yet others are in lower case, make sure the date format matches, remove currency sign if data will
 be used in SQL.
@@ -18,5 +20,17 @@ be used in SQL.
  
  4. Remove any unwanted spaces, before or at the end of the text
  >> Using " =TRIM(C2) "
+ 
+ 5. Remove currency signs : They disrupt the calculations when being used in other systems like SQL
+ >> Change from currency to "Number"
+ 
+ 6. Make sure dates are all in uniform format
+ >> Select all dates >> Change them to short date/ whichever uniform date
+ 
+ 7. Remove cells with wrong data to replace with cleaned and nice looking data
+ >> Copy cell >> Paste it as a value >> Delete the cells with wrong data
+
+ 8. Remove redundant data
+ >> Deleting cells with data not useful !!Remember to always keep a copy of the raw data
  
  
